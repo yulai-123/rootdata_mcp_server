@@ -47,26 +47,6 @@ python main.py
 - [VS Code Copilot Chat MCP 插件](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot-chat-mcp)
 - [OpenAI Function Calling API](https://platform.openai.com/docs/guides/function-calling)
 
-## 技术架构
-
-- **FastMCP**：用于构建 MCP 服务器的框架
-- **BeautifulSoup**：用于解析 HTML 数据
-- **Requests**：用于发送网络请求获取 Rootdata 网站数据
-
-## 开发指南
-
-### 添加新功能
-
-1. 在 `rootdata.py` 中添加新的数据获取和解析函数
-2. 在 `main.py` 中注册新的 MCP 工具函数
-3. 更新工具函数的文档字符串，确保 AI 助手能够理解其功能
-
-### 项目结构
-
-- `main.py`：MCP 服务器入口和工具函数定义
-- `rootdata.py`：Rootdata 网站数据获取和解析逻辑
-- `pyproject.toml`：项目依赖和元数据
-
 ## 参考资料
 
 - [MCP 终极指南](https://guangzhengli.com/blog/zh/model-context-protocol)
