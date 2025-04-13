@@ -18,7 +18,7 @@ Rootdata MCP Server 使用 Model Context Protocol 技术，为 AI 助手提供�
 1. 克隆仓库到本地：
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/yulai-123/rootdata_mcp_server.git
 cd rootdata_mcp_server
 ```
 
