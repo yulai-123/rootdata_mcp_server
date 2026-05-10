@@ -1,7 +1,7 @@
 [project]
 name = "rootdata-mcp-server"
 version = "0.1.0"
-description = "Add your description here"
+description = "A small MCP server that exposes Rootdata Web3 project data to AI assistants"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
